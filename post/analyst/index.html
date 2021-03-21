@@ -167,13 +167,14 @@
 <p>Di era sekarang ini, Artificial Intelligence lagi hot hotnya nih, banyak cabang Ilmu dari AI seperti Mechine Learning, Deep Learning, NLP (Natural Language Processing) dan lain-lain yang berbondong bondong di pelajari oleh orang-orang di karenakan karir nya yang cukup menjanjikan.
 Salah satu skill set yang di butuhkan sebelum meloncat kepada bidang AI ialah Data Analyst dan Data Scientst. Jadi kali ini kita akan mempelajari seputar Data Analyst menggunakan dataset sample instagram menggunakan bahasa pemograman R. Penasarankan gimana caranya, kita let&rsquo;s go ajaa.</p>
 <h2 id="package-yang-di-butuhkan">Package yang di butuhkan</h2>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>1.library(ggtext)
-2.library(forcats)
-3.library(ggplot2)
-4.library(dplyr)
-5.library(readr)</p>
+<h4 id="ordered-list">Ordered List</h4>
+<ol>
+<li>library(ggtext)</li>
+<li>library(forcats)</li>
+<li>library(ggplot2)</li>
+<li>library(dplyr)</li>
+<li>library(readr)</li>
+</ol>
 <h2 id="paragraph-1">Paragraph</h2>
 <p>Pertama kita import library nya terlebih dahulu, nah cara mengimport library pada R, kita
 menggunakan keyword <strong>library</strong></p>
@@ -193,7 +194,7 @@ Nah dari sini kita sudah dapat memanggil method ggplot() nya untuk melakukan vis
 menggunakan fungsi geom_segment untuk mengatur sumbu x dan y nya.
 Properti colour dan linetype di gunakan untuk mengatur warna dan jenis line / garis yang digunakan
 pada grafik.</p>
-<h4 id="code-block-with-hugos-internal-highlight-shortcode-1">Code block with Hugo&rsquo;s internal highlight shortcode</h4>
+<!-- raw HTML omitted -->
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">igstats <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">read_csv</span>(<span style="color:#e6db74">&#34;igstats.csv&#34;</span>)
 
 <span style="color:#a6e22e">glimpse</span>(igstats)
@@ -216,8 +217,7 @@ igstats_plot <span style="color:#f92672">&lt;-</span>
 geom_text untuk memberikan keterangan teks pada grafik
 geom_curve untuk menggambarkan curve line
 dan annotate fungsi yang di gunakan untuk memberikan custom text position dan style pada grafik</p>
-<p>Terakhir kita memanggil variable igstats_plot untuk menampilkan visualisainya</p>
-<h4 id="code-block-with-hugos-internal-highlight-shortcode-2">Code block with Hugo&rsquo;s internal highlight shortcode</h4>
+<p>Terakhir kita memanggil variable igstats_plot untuk menampilkan visualisainya
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"> <span style="color:#f92672">+</span>
   <span style="color:#a6e22e">geom_point</span>(
     <span style="color:#a6e22e">aes</span>(avglikes, day, fill <span style="color:#f92672">=</span> is_weekend),
@@ -286,7 +286,7 @@ dan annotate fungsi yang di gunakan untuk memberikan custom text position dan st
   <span style="color:#a6e22e">theme_void</span>() <span style="color:#f92672">+</span>
   <span style="color:#a6e22e">theme</span>(plot.background <span style="color:#f92672">=</span> <span style="color:#a6e22e">element_rect</span>(fill <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Black&#34;</span>))
 
-igstats_plot</code></pre></div>
+igstats_plot</code></pre></div></p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
