@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>thumbnail on My New Hugo Site</title>
+    <link>https://hafifamudi.github.io/tags/thumbnail/</link>
+    <description>Recent content in thumbnail on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hafifamudi.github.io/tags/thumbnail/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Guide to Thumbnails in Hugo</title>
+      <link>https://hafifamudi.github.io/sample-post/image-test/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hafifamudi.github.io/sample-post/image-test/</guid>
+      <description>Thumbnails can be enabled easily by setting the thumbnail parameter in the frontmatter to an image such as &amp;quot;images/landscape.jpg&amp;quot;.
+Make sure to copy the image the static/images/ directory.
+If put together, it will look like this (that&amp;rsquo;s in fact this post&amp;rsquo;s frontmatter):
++++author = &amp;#34;Hugo Authors&amp;#34;title = &amp;#34;Guide to Thumbnails in Hugo&amp;#34;date = &amp;#34;2019-03-04&amp;#34;description = &amp;#34;Guide to Thumbnails in Hugo&amp;#34;tags = [&amp;#34;thumbnail&amp;#34;,]thumbnail= &amp;#34;images/landscape.</description>
+    </item>
+    
+  </channel>
+</rss>
